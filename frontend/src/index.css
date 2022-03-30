@@ -1,0 +1,169 @@
+.blury {
+  filter: blur(2px);
+}
+
+main {
+  min-height: 80vh;
+}
+
+.product__price {
+  padding: 1rem 0;
+  color: white;
+  font-size: 16px;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.product__name,
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #f00;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  color: white;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.products {
+  background-color: #000;
+  color: white;
+}
+
+.products:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.search {
+  outline: none;
+  background-color: transparent;
+  font-size: 12px;
+}
+
+.search-icon {
+  background-color: black;
+  color: #e0e0e0;
+  margin-bottom: 0px;
+  font-size: 1.4rem;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.form-control:focus {
+  outline: none;
+  background-color: #000;
+  color: white;
+}
+
+.input-group {
+  background-color: black;
+}
+
+.heading__main {
+  margin-top: 50px;
+}
+
+.form-label {
+  color: white;
+}
+
+.card {
+  margin-top: 77px;
+}
+
+.list-group-flush > .list-group-item {
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  font-size: 18px;
+  color: white;
+}
+
+td {
+  color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n + 1) > * {
+  color: white;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.form__control {
+  padding-bottom: 10px;
+}
+
+.form-control {
+  font-size: 1.3rem;
+  background-color: #111;
+
+  color: white;
+}
+
+.alert-info {
+  background-color: #111;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.alert-success {
+  background-color: #111;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.alert-danger {
+  background-color: #111;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #f00;
+}
+
+.nav-item {
+  margin: 0px;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: white;
+}
+
+strong {
+  color: white;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
