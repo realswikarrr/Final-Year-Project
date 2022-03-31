@@ -1,24 +1,18 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { Carousel, Image } from "react-bootstrap";
-import Loader from "./Loader";
-import Message from "./Message";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { listTopProducts } from "../Actions/productActions";
 import { Autoplay } from "swiper";
 import "swiper/css";
 import "./Main.css";
 
 const ProductCarousel = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const productTopRated = useSelector((state) => state.productTopRated);
-  const { loading, error, products } = productTopRated;
+  // const productTopRated = useSelector((state) => state.productTopRated);
+  // const { loading, error, products } = productTopRated;
 
-  useEffect(() => {
-    dispatch(listTopProducts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(listTopProducts());
+  // }, [dispatch]);
 
   //   return loading ? (
   //     <Loader />
@@ -61,7 +55,7 @@ const ProductCarousel = () => {
                 <div className="content">
                   <span>be strong, be fit</span>
                   <h3>Make yourself stronger than your excuses.</h3>
-                  <a href="#" className="btn">
+                  <a href="/register" className="btn">
                     get started
                   </a>
                 </div>
@@ -72,7 +66,7 @@ const ProductCarousel = () => {
                 <div className="content">
                   <span>be strong, be fit</span>
                   <h3>Make yourself stronger than your excuses.</h3>
-                  <a href="#" className="btn">
+                  <a href="/register" className="btn">
                     get started
                   </a>
                 </div>
@@ -84,7 +78,7 @@ const ProductCarousel = () => {
                 <div className="content">
                   <span>be strong, be fit</span>
                   <h3>Make yourself stronger than your excuses.</h3>
-                  <a href="#" className="btn">
+                  <a href="/register" className="btn">
                     get started
                   </a>
                 </div>

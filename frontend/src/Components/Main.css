@@ -820,3 +820,72 @@ section {
   background: url(../images/home-bg-3.jpg) no-repeat;
 }
 
+.workout__container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.lifter {
+  width: 150px;
+}
+
+.workout-info {
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+}
+
+.workout-info h1 {
+  color: #d35400;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.workout-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.workout-info ul li {
+  color: #999;
+}
+
+.workout-info ul li.active {
+  color: #333;
+}
+
+.workout-info ul h2 small {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.workout-info ul h2 i {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.workout-info ul h2 i.fa-check {
+  color: green;
+}
+
+.workout-info ul h2 i.fa-circle {
+  color: red;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .workout-info {
+    padding: 15px 30px;
+  }
+
+  .workout-info ul h2 i {
+    margin: 0 5px;
+  }
+}

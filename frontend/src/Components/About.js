@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image from "../images/about-img.jpg";
 import "./Main.css";
 
@@ -47,9 +48,9 @@ const About = () => {
             <p>Workout is the best way to get your body and mind healthy and</p>
           </div>
         </div>
-        <a href="#" className="btn">
+        <Link to="/workoutplans" className="btn">
           See Workout Plans
-        </a>
+        </Link>
       </div>
     </section>
   );

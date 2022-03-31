@@ -64,7 +64,7 @@ const ProductScreen = ({ history, match }) => {
 
   return (
     <section style={{ marginTop: "20px" }}>
-      <Link className="btn btn-light my-3 btn-custom" to="/">
+      <Link className="btn btn-light btn-custom" to="/">
         Go Back
       </Link>
       {loading ? (

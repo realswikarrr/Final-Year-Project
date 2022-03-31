@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap");
+
 .blury {
   filter: blur(2px);
 }
@@ -166,4 +169,46 @@ strong {
 
 .dropdown-menu.show {
   display: flex;
+}
+
+.recommend__image {
+  width: 80%;
+}
+
+.blog__title {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 20px;
+  background: #111;
+  padding: 10px;
+  border-radius: 1px;
+  font-family: "Heebo", sans-serif;
+  color: #f00;
+}
+
+.blog__author {
+  color: #f00;
+  font-family: "Oswald", sans-serif;
+}
+
+.blog__content {
+  margin-top: 20px;
+  font-size: 17px;
+  color: white;
+  text-align: justify;
+  margin-bottom: 20px;
+  white-space: break-spaces;
+  font-family: "Heebo", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .heading span {
+    border: none;
+  }
 }

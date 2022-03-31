@@ -19,12 +19,9 @@ const BlogScreen = ({ match }) => {
 
   return (
     <section style={{ marginTop: "20px" }}>
-      <Link className="btn btn-light my-3 btn-custom" to="/">
+      <Link className="btn btn-light btn-custom" to="/">
         Go Back
       </Link>
-      <h1 className="heading">
-        <span>{blog.title}</span>
-      </h1>
 
       {loading ? (
         <Loader />
@@ -36,14 +33,19 @@ const BlogScreen = ({ match }) => {
             <Center>
               <Image
                 src={blog.image}
-                style={{ width: "50%", height: "100%" }}
+                style={{ width: "40%", height: "100%", borderRadius: "50%" }}
               />
             </Center>
 
-            <p style={{ marginTop: "20px", fontSize: "16px", color: "white" }}>
-              {blog.content}
-            </p>
-            <h2>Written by - {blog.author}</h2>
+            <Center>
+              <h1 className="blog__title">{blog.title}</h1>
+            </Center>
+
+            <p className="blog__content">{blog.content}</p>
+
+            <h2 className="blog__author">
+              - <span>{blog.author}</span>
+            </h2>
           </Row>
         </>
       )}

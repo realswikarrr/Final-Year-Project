@@ -12,6 +12,7 @@ import ProductCarousel from "../Components/ProductCarousel";
 import About from "../Components/About";
 import Features from "../Components/Features";
 import Blogs from "../Components/Blogs";
+import Recommend from "../Components/Recommend";
 
 const HomeScreen = ({ match }) => {
   const keyword = match.params.keyword;
@@ -60,7 +61,7 @@ const HomeScreen = ({ match }) => {
             </Row>
           </section>
 
-          <Blogs />
+          {!keyword ? <Blogs /> : <Recommend />}
           <Paginate
             pages={pages}
             page={page}

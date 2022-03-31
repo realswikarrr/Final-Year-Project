@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image1 from "../images/f-img-1.jpg";
 import image2 from "../images/f-img-2.jpg";
 import image3 from "../images/f-img-3.jpg";
@@ -26,9 +27,9 @@ const Features = () => {
               We got a huge bodybuilding program that will help you to get fit
               and healthy.
             </p>
-            <a href="#" className="btn">
+            <Link to="/blogs/624356da81fc71434b4eb6c4" className="btn">
               read more
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -43,9 +44,9 @@ const Features = () => {
               We got a huge Crossfit room that will help you get fit and
               healthy.
             </p>
-            <a href="#" className="btn">
+            <Link to="/blogs/624356da81fc71434b4eb6c7" className="btn">
               read more
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -59,9 +60,9 @@ const Features = () => {
             <p>
               We got a huge Cardio room that will help you get fit and healthy.
             </p>
-            <a href="#" className="btn">
+            <Link to="/blogs/624356da81fc71434b4eb6c5" className="btn">
               read more
-            </a>
+            </Link>
           </div>
         </div>
       </div>
